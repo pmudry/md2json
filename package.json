@@ -1,0 +1,19 @@
+{
+  "name": "md2json",
+  "version": "1.0.0",
+  "description": "Converts markdown files to JSON",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pierre-André Mudry",
+  "license": "ISC",
+  "dependencies": {
+    "remark": "^14.0.2",
+    "remark-html": "^15.0.1",
+    "remark-preset-lint-markdown-style-guide": "^5.1.2",
+    "unist-util-remove-position": "^4.0.1",
+    "vfile-reporter": "^7.0.4"
+  }
+}
